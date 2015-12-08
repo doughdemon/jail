@@ -28,9 +28,9 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
+#include <sys/types.h>
 
 #if defined(__SOLARIS__) || defined(__IRIX__)
-   #include <sys/types.h>
    #include <sys/mkdev.h>
 #endif
 
